@@ -60,6 +60,10 @@ set8 intersection(set8 A,set8 B){
 	return A & B;
 }
 
+set8 difference(set8 A,set8 B){
+	 return A & ~B
+}
+
 void display(set8 set){
     int first = 1;
     int i;
