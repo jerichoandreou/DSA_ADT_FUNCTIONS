@@ -1,0 +1,15 @@
+Array List
+-complete var4 insertSorted
+Linked List
+-var1
+Array Stack
+
+Array Queue
+
+LL Stack
+
+LL Queue
+-var2
+Cursor Based List
+-everything
+Bit Vector

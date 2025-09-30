@@ -55,7 +55,11 @@ int peek(Stack *S){
 	if(S->top == -1){
 		printf("STACK IS EMPTY");
 	}
-	return S->items[S->top-1];
+	return S->items[S->top];
+}
+
+int top(Stack* S){
+	return S->items[S->top];
 }
 
 void display(Stack *S){
